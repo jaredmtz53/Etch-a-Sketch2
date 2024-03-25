@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="eas.js" defer></script>
+</head>
+<body>
+    <div class="title">Etch-A-Sketch</div>
+   
+    <div class="buttonContainer">
+        <input type="color" value = "#000" name="colorPicker" id="colorPicker" class = "colorPicker">
+        <button class="colorMode">Color Mode </button>
+        <button class="rainbowMode">Rainbow mode </button>
+        <button class="eraser">Eraser</button>
+        <button class="clear">Clear</button>   
+    </div>
+    <div class="rangeValue"> 32 x 32 </div>
+    <input type="range" min="2" max="64" value = "32" class = "slider">
+    
+    <div id = "grid"class="grid"></div>
+</body>
+</html>
